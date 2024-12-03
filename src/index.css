@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: var(--bg-color);
+  width: 100vw;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 1rem;
+}
